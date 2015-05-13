@@ -882,7 +882,7 @@
                 var remaining = obj.media.duration * 1000;
                 basicBot.room.autoskipTimer = setTimeout(function () {
                     console.log("Skipping track.");
-                    //API.sendChat('Song stuck, skipping...');
+                    API.sendChat('Song stuck, skipping...');
                     API.moderateForceSkip();
                 }, remaining + 3000);
             }
@@ -1640,7 +1640,7 @@
 
             cycleCommand: {
                 command: 'cycle',
-                rank: 'mod',
+                rank: 'manager',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -1957,8 +1957,8 @@
             },
 
             killCommand: {
-                command: 'mod',
-                rank: 'bouncer',
+                command: 'kill',
+                rank: 'mod',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
