@@ -85,7 +85,7 @@
     "bouncerplusrank": "/me [ @%%NAME%% ] You have to be manager or up to enable Bouncer+.",
     "chatcleared": "/me [ @%%NAME%% ] Cleared the chat.",
     "deletechat": "/me [ @%%NAME%% ] Cleared the chat of %%USERNAME%%.",
-    "commandslink": "/me %%BOTNAME%% commands: %%LINK%%",
+    "commandslink": "/me %%BOTNAME%% commands: http://bit.ly/1HpnshV",
     "eatcookie": "/me eats a cookie.",
     "nousercookie": "/me doesn't see %%NAME%% in room and eats a cookie himself.",
     "selfcookie": "/me @%%NAME%% , you're a bit greedy, aren't you? Giving cookies to yourself, bah. Share some with other people!",
